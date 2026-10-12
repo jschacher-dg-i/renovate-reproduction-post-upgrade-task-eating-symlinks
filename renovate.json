@@ -1,0 +1,10 @@
+{
+    "dependencyDashboard": true,
+    "postUpgradeTasks": {
+        "commands": [
+            "rm symlink_to_dockerfile_already_existing",
+            "ln -s Dockerfile symlink_to_dockerfile_already_existing",
+            "ln -s Dockerfile symlink_to_dockerfile"
+        ]
+    }
+}
